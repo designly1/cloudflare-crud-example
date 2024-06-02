@@ -4,6 +4,11 @@ main = "src/index.ts"
 compatibility_date = "2024-05-29"
 compatibility_flags = ["nodejs_compat"]
 
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "cf-crud-example"
+database_id = "0bf765eb-0f9d-4c91-aebd-fb594ea8eebd"
+
 # Automatically place your workloads in an optimal location to minimize latency.
 # If you are running back-end logic in a Worker, running it closer to your back-end infrastructure
 # rather than the end user may result in better performance.
